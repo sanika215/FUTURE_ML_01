@@ -20,7 +20,7 @@ The focus is on applying machine learning techniques and presenting results in a
 |-------------------------------------|---------|---------------------------------------|
 | Clean & prepare historical data      | ✔ DONE | CSV loaded, date fixed, sorted, columns checked |
 | Create time-based features           | ✔ DONE | Year, Month, seasonality added        |
-| Apply forecasting techniques         | ✔ DONE | Linear Regression used for prediction |
+| Apply forecasting techniques         | ✔ DONE | Linear Regression used for prediction | 
 | Evaluate model performance           | ✔ DONE | MAE & RMSE calculated (RMSE = 497128.01) |
 | Visualize forecasts                  | ✔ DONE | Line graph of Actual vs Predicted     |
 | Explain trends & business relevance  | ✔ READY | Seasonal patterns identified; helps business planning |
