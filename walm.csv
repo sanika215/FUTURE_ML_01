@@ -7,7 +7,6 @@ git push -u origin main
 
 
 
-
 https://chatgpt.com/share/69faa1b1-31fc-8321-aaec-bd9409d4c344
 
 
@@ -23,7 +22,7 @@ https://chatgpt.com/share/69faa1b1-31fc-8321-aaec-bd9409d4c344
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- jQuery Mobile CSS -->
+    <!-- jQuery Mobile CSS --> 
 
     <link rel="stylesheet"
     href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
