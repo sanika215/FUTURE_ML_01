@@ -9,3 +9,214 @@ git push -u origin main
 
 
 https://chatgpt.com/share/69faa1b1-31fc-8321-aaec-bd9409d4c344
+
+
+
+
+4a mobile jquery:-
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Simple Mobile Website</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery Mobile CSS -->
+
+    <link rel="stylesheet"
+    href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- jQuery -->
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- jQuery Mobile -->
+
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Home Page -->
+
+    <div data-role="page" id="home">
+
+        <!-- Header -->
+
+        <div data-role="header" data-theme="b">
+
+            <h1>My Mobile Website</h1>
+
+        </div>
+
+        <!-- Content -->
+
+        <div data-role="content">
+
+            <h2>Welcome</h2>
+
+            <p>
+                This is a simple interactive mobile website using jQuery Mobile.
+            </p>
+
+            <!-- List View -->
+
+            <ul data-role="listview" data-inset="true">
+
+                <li>
+                    <a href="#about">
+                        About Us
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <br>
+
+            <!-- Button -->
+
+            <a href="#contact"
+            data-role="button"
+            data-theme="b">
+
+                Register Now
+
+            </a>
+
+        </div>
+
+        <!-- Footer -->
+
+        <div data-role="footer" data-theme="b">
+
+            <h4>Mobile Website Demo</h4>
+
+        </div>
+
+    </div>
+
+    <!-- About Page -->
+
+    <div data-role="page" id="about">
+
+        <div data-role="header" data-theme="b">
+
+            <h1>About Us</h1>
+
+        </div>
+
+        <div data-role="content">
+
+            <p>
+                We develop responsive mobile applications and websites.
+            </p>
+
+            <a href="#home"
+            data-role="button">
+
+                Back to Home
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Services Page -->
+
+    <div data-role="page" id="services">
+
+        <div data-role="header" data-theme="b">
+
+            <h1>Services</h1>
+
+        </div>
+
+        <div data-role="content">
+
+            <ul data-role="listview" data-inset="true">
+
+                <li>Web Development</li>
+
+                <li>Mobile App Design</li>
+
+                <li>UI/UX Design</li>
+
+            </ul>
+
+            <a href="#home"
+            data-role="button">
+
+                Back to Home
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Contact Page -->
+
+    <div data-role="page" id="contact">
+
+        <div data-role="header" data-theme="b">
+
+            <h1>Contact Us</h1>
+
+        </div>
+
+        <div data-role="content">
+
+            <form>
+
+                <label>Name:</label>
+
+                <input type="text"
+                placeholder="Enter your name">
+
+                <label>Email:</label>
+
+                <input type="email"
+                placeholder="Enter your email">
+
+                <label>Message:</label>
+
+                <textarea
+                placeholder="Enter message"></textarea>
+
+                <button data-theme="b">
+
+                    Submit
+
+                </button>
+
+            </form>
+
+            <a href="#home"
+            data-role="button">
+
+                Back to Home
+
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
